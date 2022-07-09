@@ -24,9 +24,10 @@ public class SeleniumLocators {
 		
 		driver.findElement(By.className("menu_user_login")).click();
 		driver.findElement(By.id("log")).sendKeys("TestUser");
-		Thread.sleep(4000);
-		
-		
+		driver.findElement(By.id("password")).sendKeys("12345@67890");
+		Thread.sleep(2000);
+        driver.findElement(By.className("submit_button")).click();
+		Thread.sleep(4000);	
 	}
 	
 	@AfterClass

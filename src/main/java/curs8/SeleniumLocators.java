@@ -1,7 +1,11 @@
 package curs8;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -28,6 +32,19 @@ public class SeleniumLocators {
 		Thread.sleep(2000);
         driver.findElement(By.className("submit_button")).click();
 		Thread.sleep(4000);	
+		
+		WebElement userName = driver.findElement(By.className("user_name"));
+		assertTrue(userName.isDisplayed());
+						
+	    //<span class="user_name">Test User</span>  <> text </>
+		
+		String userLogat = userName.getText();
+		System.out.println(userLogat);
+		
+		assertEquals(userName.getText(), "Test User");
+
+		//assertTrue(driver.findElement(By.className("user_name")).isDisplayed());
+		
 	}
 	
 	@AfterClass

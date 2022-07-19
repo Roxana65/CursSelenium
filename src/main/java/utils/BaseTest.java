@@ -13,11 +13,13 @@ public WebDriver driver;
 	
 	@BeforeClass
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
 	    driver = new ChromeDriver();
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	 
 	    driver.get("https://keybooks.ro/");
+	    //driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 	}
 	
 	@AfterClass

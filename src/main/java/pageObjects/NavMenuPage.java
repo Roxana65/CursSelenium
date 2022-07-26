@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -21,10 +22,19 @@ public class NavMenuPage {
 	@FindBy(xpath="(//a[contains(@class, 'popup_login_link ')])[1]")public WebElement loginLink;
 	
 	//WebElement loginLink = driver.findElement(By.xpath("(//a[contains(@class, 'popup_login_link ')])[1]"));
+	
 	@FindBy(linkText="CONTACTS")public WebElement contactsLink;
+	@FindBy(linkText="BLOG") public WebElement blogLink;
+	@FindBy(linkText="Post Formats") public WebElement postFormatsLink;
+	@FindBy(linkText="BOOKS") public WebElement shopLink;
+
 	
 	public void navigateTo(WebElement element) {
 		element.click();
+	}
+	public void hoverMenu(WebElement element) {
+		Actions actions = new Actions(driver);
+		actions.moveToElement(element).perform();
 	}
 	
 }

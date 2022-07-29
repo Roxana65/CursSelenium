@@ -1,5 +1,6 @@
 package utils;
 
+import pageObjects.BlogPage;
 import pageObjects.ContactPage;
 import pageObjects.LoginPage;
 import pageObjects.NavMenuPage;
@@ -11,5 +12,6 @@ public class BasePage extends BaseTest {
 	public LoginPage  loginPage= new LoginPage(driver);
 	public ContactPage contactPage= new ContactPage(driver);
 	public ShopPage shopPage= new ShopPage(driver);
+	public BlogPage blogPage = new BlogPage(driver);
 	
 }

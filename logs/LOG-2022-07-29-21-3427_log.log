@@ -1,0 +1,66 @@
+21:34:27.787 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:27.790 [main] INFO  utils.Log - Started methodloginWithDifferentUsersTest
+21:34:27.790 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:27.798 [main] INFO  utils.Log - Started time : 2022.07.29.21.34.27
+21:34:27.799 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:27.895 [main] INFO  utils.Log - called method loginInApp
+21:34:27.896 [main] INFO  utils.Log - Send keys with valueTestUser
+21:34:28.118 [main] INFO  utils.Log - Send keys with value12345@67890
+21:34:28.197 [main] INFO  utils.Log - Clicked on submit button
+21:34:33.093 [main] INFO  utils.Log - Wait for logout button to be visible
+21:34:33.913 [main] INFO  utils.Log - Called logout button .click
+21:34:33.917 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:33.919 [main] INFO  utils.Log - Passed methodloginWithDifferentUsersTest
+21:34:33.920 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:33.923 [main] INFO  utils.Log - Finish time : 2022.07.29.21.34.33
+21:34:33.924 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:33.930 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:33.931 [main] INFO  utils.Log - Started methodloginWithDifferentUsersTest
+21:34:33.931 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:33.933 [main] INFO  utils.Log - Started time : 2022.07.29.21.34.33
+21:34:33.933 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:34.276 [main] INFO  utils.Log - called method loginInApp
+21:34:34.277 [main] INFO  utils.Log - Send keys with valueUserGresit
+21:34:34.646 [main] INFO  utils.Log - Send keys with valueparolaGresita
+21:34:34.761 [main] INFO  utils.Log - Clicked on submit button
+21:34:35.006 [main] INFO  utils.Log - Called clear method on usernameField
+21:34:35.120 [main] INFO  utils.Log - Called clear method on passwordField
+21:34:35.173 [main] INFO  utils.Log - Called click on closePopUp
+21:34:35.174 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:35.174 [main] INFO  utils.Log - Passed methodloginWithDifferentUsersTest
+21:34:35.174 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:35.174 [main] INFO  utils.Log - Finish time : 2022.07.29.21.34.35
+21:34:35.174 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:35.175 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:35.176 [main] INFO  utils.Log - Started methodloginWithDifferentUsersTest
+21:34:35.176 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:35.176 [main] INFO  utils.Log - Started time : 2022.07.29.21.34.35
+21:34:35.176 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:35.233 [main] INFO  utils.Log - called method loginInApp
+21:34:35.234 [main] INFO  utils.Log - Send keys with valuetest.test
+21:34:35.403 [main] INFO  utils.Log - Send keys with valuetest.test@123
+21:34:35.484 [main] INFO  utils.Log - Clicked on submit button
+21:34:39.425 [main] INFO  utils.Log - Wait for logout button to be visible
+21:34:40.420 [main] INFO  utils.Log - Called logout button .click
+21:34:40.423 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:40.424 [main] INFO  utils.Log - Passed methodloginWithDifferentUsersTest
+21:34:40.424 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:40.424 [main] INFO  utils.Log - Finish time : 2022.07.29.21.34.40
+21:34:40.425 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:40.427 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:40.427 [main] INFO  utils.Log - Started methodloginWithDifferentUsersTest
+21:34:40.427 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:40.428 [main] INFO  utils.Log - Started time : 2022.07.29.21.34.40
+21:34:40.428 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:40.610 [main] INFO  utils.Log - called method loginInApp
+21:34:40.611 [main] INFO  utils.Log - Send keys with valueuserGresit123
+21:34:40.825 [main] INFO  utils.Log - Send keys with valueparolaGresita123
+21:34:41.025 [main] INFO  utils.Log - Clicked on submit button
+21:34:41.208 [main] INFO  utils.Log - Called clear method on usernameField
+21:34:41.299 [main] INFO  utils.Log - Called clear method on passwordField
+21:34:41.357 [main] INFO  utils.Log - Called click on closePopUp
+21:34:41.357 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:41.357 [main] INFO  utils.Log - Passed methodloginWithDifferentUsersTest
+21:34:41.357 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++
+21:34:41.358 [main] INFO  utils.Log - Finish time : 2022.07.29.21.34.41
+21:34:41.358 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++

@@ -13,5 +13,6 @@ public class BlogTest extends BaseTest {
 		page.navMenu.navigateTo(page.navMenu.postFormatsLink);
 		page.blogPage.playb(page.blogPage.melodie);
 		Thread.sleep(5000);
+		page.blogPage.playSonor(page.blogPage.sonor);
 	}
 }

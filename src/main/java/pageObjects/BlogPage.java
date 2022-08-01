@@ -19,6 +19,7 @@ public class BlogPage {
 	@FindBy(xpath="//div[@class='mejs-button mejs-playpause-button mejs-play']")public WebElement play;
 	@FindBy(xpath="//span[@class='mejs-time-current']")public WebElement melodie;
 
+	@FindBy(xpath="//div[@class='mejs-horizontal-volume-current']")public WebElement sonor; 
 
 
 	
@@ -28,7 +29,12 @@ public class BlogPage {
 		Thread.sleep(1000);
 		Actions actions = new Actions(driver);
 		actions.dragAndDropBy(element, 200, 0).perform();
+		Thread.sleep(2000);
 		
+	}
+	public void playSonor(WebElement element) {
+		Actions actions= new Actions(driver);
+		actions.dragAndDropBy(element, 50, 0).perform();
 	}
 }
 

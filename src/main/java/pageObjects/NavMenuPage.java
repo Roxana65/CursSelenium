@@ -19,6 +19,7 @@ public class NavMenuPage {
 	
 	//PageFactory
 	//@FindBy este o prescurtare pt driver.findElement(By...)
+	
 	@FindBy(xpath="(//a[contains(@class, 'popup_login_link ')])[1]")public WebElement loginLink;
 	
 	//WebElement loginLink = driver.findElement(By.xpath("(//a[contains(@class, 'popup_login_link ')])[1]"));

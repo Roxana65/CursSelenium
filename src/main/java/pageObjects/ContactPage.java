@@ -20,6 +20,11 @@ public class ContactPage {
 	@FindBy(partialLinkText="map") public WebElement clickOutSideMap;
 	
 	@FindBy(xpath="//input[@name='your-name']")public WebElement nameField;
+	@FindBy(xpath="//input[@name='your-email']")public WebElement emailField;
+	@FindBy(xpath="//input[@name='your-s']")public WebElement subjectField;
+	@FindBy(xpath="//textarea[@name='your-message']")public WebElement messageField;
+	@FindBy(xpath="//input[@value='Send Message']")public WebElement sMButton;
+
 	
 	
 	public void zoomMap (WebElement element) {
@@ -30,7 +35,29 @@ public class ContactPage {
 		clickOutSideMap.click();
 	}
 	
-	public void sendMessage(String name) {
+	public void sendMessage(String name, String email, String subject, String message) throws InterruptedException {
 		nameField.sendKeys(name);
+		emailField.sendKeys(email);
+		subjectField.sendKeys(subject);
+		messageField.sendKeys(message);
+		Thread.sleep(2000);
+		sMButton.click();
+		Thread.sleep(3000);
+	}
+	public void sendNoEmail(String name,String subject, String message) throws InterruptedException {
+		nameField.sendKeys(name);
+		subjectField.sendKeys(subject);
+		messageField.sendKeys(message);
+		Thread.sleep(2000);
+		sMButton.click();
+		Thread.sleep(3000);
+	}
+	public void sendNoName(String email, String subject, String message) throws InterruptedException {
+		emailField.sendKeys(email);
+		subjectField.sendKeys(subject);
+		messageField.sendKeys(message);
+		Thread.sleep(2000);
+		sMButton.click();
+		Thread.sleep(3000);
 	}
 }
